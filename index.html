@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <form id="to-do-list" onsubmit="return false">
+      <label>Enter the things you need to do seperated by a comma:
+      <br>
+          <input id="list-values" type="text" title="Hit Enter to Submit" placeholder="  ex. Clean My Room, Do the Dishes, Read My Book">
+        </label>
+      <br>
+        <input onclick="generateList()" type="submit" id="submit-btn" name="Generate List">
+    </form>
+    <br>
+    <div id="display-list">
+      <ul id="unordered-list"></ul>
+    </div>
+  </body>
+  <script type="text/javascript" src="toDoList.js"></script>
+</html>

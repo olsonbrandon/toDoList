@@ -1,0 +1,86 @@
+/* latin */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v8/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body{
+background-color: #F2F2F3;
+width: 1000px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+overflow:scroll;
+}
+
+#submit-btn {
+  display: none;
+}
+h1 {
+  text-align: center;
+  font-family: 'Indie Flower';
+  font-size: 60px;
+  margin-bottom: auto;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 15px;
+  padding: 0;
+  height: 26px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li:hover {
+  font-size: 110%;
+  font-size: 1.1em;
+}
+
+li {
+  height: 26px;
+  text-align: left;
+  margin-left: 75px;
+
+}
+
+#to-do-list {
+  text-align: center;
+}
+
+#list-values {
+  border-radius: 10px;
+  width: 400px;
+  height: 17px;
+  margin-top: 15px;
+}
+
+.cross-off {
+  text-decoration: line-through; color: red;
+  opacity: .3;
+}
+
+#list-values {
+  font-family: 'Indie Flower';
+  font-size: 14px;
+}
+
+#display-list {
+  background-image: url('Images/paper3.jpg');
+  background-repeat: repeat-y;
+  min-height: 496px;
+  min-width: 500px;
+  display: inline-block;
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clickable {
+  cursor:pointer;
+}
